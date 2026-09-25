@@ -1,0 +1,38 @@
+# Flutter / Dart
+flutter/**/.dart_tool/
+flutter/**/.packages
+flutter/**/.pub-cache/
+flutter/**/.pub/
+flutter/**/build/
+flutter/**/.flutter-plugins
+flutter/**/.flutter-plugins-dependencies
+flutter/**/.metadata
+flutter/**/pubspec.lock
+flutter/**/android/.gradle/
+flutter/**/android/local.properties
+flutter/**/ios/Pods/
+flutter/**/ios/.symlinks/
+flutter/**/ios/Flutter/ephemeral/
+flutter/**/macos/Pods/
+flutter/**/linux/flutter/ephemeral/
+flutter/**/windows/flutter/ephemeral/
+
+# Spring Boot / Java
+springboot/**/target/
+springboot/**/.gradle/
+springboot/**/build/
+
+# IDE and local files
+**/.idea/
+**/.vscode/
+**/*.iml
+**/.DS_Store
+**/Thumbs.db
+
+# Local configuration and secrets
+**/.env
+**/.env.*
+!**/.env.example
+**/application-local.properties
+**/application-local.yml
+**/application-local.yaml
